@@ -1,6 +1,19 @@
-# Nuxt 3 Minimal Starter
+# Real-Time Backend Check with Nuxt 3 and SSE
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This project demonstrates how to implement real-time backend checks in a Nuxt 3 application using Server-Sent Events (SSE) and cron jobs. The backend regularly checks for updates using a cron job and pushes the updates to all connected clients via SSE in real time.
+
+## Features
+
+- **Server-Sent Events (SSE)**: Clients receive real-time updates from the backend.
+- **Cron Job Integration**: The backend performs regular checks (every minute) using a cron job and updates all connected clients.
+- **Vue 3 Frontend**: The frontend listens for real-time data updates and displays them to the user.
+- **Nuxt 3**: The project leverages Nuxt 3's capabilities for server-side and client-side rendering.
+
+## Technologies Used
+
+- **Nuxt 3**: A modern framework for building Vue.js applications.
+- **Server-Sent Events (SSE)**: A technology used for pushing updates from the server to the client in real-time.
+- **Cron Jobs**: Used to schedule regular backend checks.
 
 ## Setup
 
