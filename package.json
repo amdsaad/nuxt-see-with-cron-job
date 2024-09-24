@@ -12,6 +12,7 @@
   "dependencies": {
     "nuxt": "^3.13.0",
     "vue": "latest",
-    "vue-router": "latest"
+    "vue-router": "latest",
+    "nuxt-cron": "^1.6.0"
   }
 }
